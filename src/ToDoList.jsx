@@ -31,8 +31,8 @@ const TodoList = () => {
             return;
         }
 
-        if (newTask.trim().length > 20) {
-            setError('Task must be below 20 characters.');
+        if (newTask.trim().length > 40) {
+            setError('Task must be below 40 characters.');
             return;
         }
 
